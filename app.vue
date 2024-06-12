@@ -7,12 +7,8 @@
 </template>
 <script setup lang="ts">
 useHead({
-  title: "My amazing siteedasdsee",
+  title: "My amazing site",
   meta: [{ name: "description", content: "My amazing site." }],
-  bodyAttrs: {
-    class: "test",
-  },
-  script: [{ innerHTML: "console.log('Hello world')" }],
 });
 useSeoMeta({
   title: "My Amazing Siteeee",
